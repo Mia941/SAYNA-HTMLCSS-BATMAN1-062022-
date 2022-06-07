@@ -13,7 +13,7 @@
      background-color: black;
      color: white;
      background-image: url("../Assets/Illustrations/Bathome1.png");
-     background-size: cover;
+     background-size: contain;
  }
  
  header {
