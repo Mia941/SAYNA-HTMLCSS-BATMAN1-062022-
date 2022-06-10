@@ -36,7 +36,6 @@ p {
     font-family: "Space Grotesk";
     width: 100%;
     font-size: 18px;
-    padding-left: 56px;
 }
 
 .home {
@@ -58,9 +57,21 @@ p {
 .tempered {
     display: flex;
     align-items: center;
-    position: absolute;
+    gap: 20px;
     flex: content;
     flex-direction: column;
+    position: absolute;
+    transform: translate(50%, -50%);
+    right: 0;
+}
+
+.aside {
+    background-color: #FFFF00;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    left: 50%;
 }
 
 .logo {
@@ -123,7 +134,7 @@ legend {
 }
 
 .Contenu {
-    width: 30%;
+    width: 50%;
     margin: 0 auto;
     padding-top: 170px;
 }
@@ -194,7 +205,11 @@ legend {
     width: 200px;
     height: 50px;
     justify-content: space-between;
-    background-color: #eddbef #19587d;
+    background: linear-gradient(90deg, rgba(237, 222, 191, 0.4), rgba(137, 0, 8, 0.4));
+    margin-left: 15px;
+    margin-right: 15px;
+    border: none;
+    color: white;
 }
 
 .texte {
