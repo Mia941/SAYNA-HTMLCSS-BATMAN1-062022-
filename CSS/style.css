@@ -43,10 +43,18 @@ p {
 .home {
     font-family: "Rajdhani";
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 400;
     padding-right: 70px;
     padding-bottom: 30px;
     padding-top: 25px;
+    text-decoration: none;
+}
+
+.home:hover {
+    font-family: "Space Grotesk";
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 600;
 }
 
 .crazy {
@@ -65,6 +73,11 @@ p {
     position: absolute;
     transform: translate(50%, -50%);
     right: 0;
+}
+
+.bathome12 {
+position: absolute;
+right:0 ;
 }
 
 .unique {
@@ -122,10 +135,6 @@ header {
 legend {
     font-family: "Rajdhani";
     font-size: 20px;
-}
-
-div img a:hover {
-    color: var(--yellow-color);
 }
 
 .Item {
@@ -257,4 +266,9 @@ div img a:hover {
     background-color: blue;
     padding-top: 50px;
     font-family: "Space Grotesk";
+}
+
+.universcine {
+    display: inline-flex;
+    text-align: center;
 }
