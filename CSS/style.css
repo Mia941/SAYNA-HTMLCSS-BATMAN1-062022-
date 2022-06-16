@@ -83,6 +83,7 @@ p {
 .bathome12 {
 position: absolute;
 right:0 ;
+z-index: -1;
 
 }
 
@@ -268,13 +269,12 @@ legend {
     display: block;
     background:  linear-gradient(90deg, rgba(237, 222, 191, 0.4), rgba(25, 88, 125, 0.4)); 
     padding-top: 50px;
-    font-family: "Space Grotesk";
-    text-align: center;
+    font-family: "Rajdhani";
 }
 
 .universcine {
     display: inline-flex;
-    text-align: center;
+    text-align: center; 
 }
 
 .dudewings {
@@ -285,4 +285,48 @@ legend {
 
 .matio {
     padding: 10%;
+}
+
+.john {
+    display: flex; 
+    flex-direction: row;
+    font-family: "Rajdhani"; 
+}
+
+div>.mark  {
+    font-family: "Rajdhani";
+    font-size: 12px;
+}
+ 
+div>.luke {
+    font-family: "Rajdhani";
+}
+
+.contact>h2 {
+    padding-top: 2%;
+    padding-bottom: 2%; 
+    font-size: 30px;
+    text-align: center;
+}
+
+.secondbutton {
+    background: none;
+    font-family: "Space Grotesk";
+    font-size: 10px; 
+    padding: 10px;
+    color: white; 
+}
+
+.multimedia>h2 {
+    font-family: "Rajdhani";
+}
+
+.ezekiela {
+    width: 70%;
+    margin: 0 auto;
+}
+
+input {
+    background-color: none;
+    border: none;
 }
