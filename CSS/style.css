@@ -4,6 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 
  :root {
     --yellow-color: #FFFF00;
@@ -232,7 +247,7 @@ legend {
 }
 
 .multimedia12 {
-    background-color: #c4c4c4;
+    background: linear-gradient(90deg, rgba(237, 222, 191, 0.4), rgba(25, 88, 125, 0.4));
     width: 500px;
     height: 230px;
     border-top-right-radius: 10px;
@@ -327,6 +342,7 @@ div>.luke {
 }
 
 input {
-    background-color: none;
+    background-color: transparent;
     border: none;
+    border-bottom: grey;
 }
