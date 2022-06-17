@@ -285,6 +285,7 @@ legend {
     background:  linear-gradient(90deg, rgba(237, 222, 191, 0.4), rgba(25, 88, 125, 0.4)); 
     padding-top: 50px;
     font-family: "Rajdhani";
+    margin: 0 auto;
 }
 
 .universcine {
@@ -345,4 +346,8 @@ input {
     background-color: transparent;
     border: none;
     border-bottom: grey;
+}
+
+.yellow {
+    color: yellow; 
 }
