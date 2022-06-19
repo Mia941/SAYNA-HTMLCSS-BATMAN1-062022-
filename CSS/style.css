@@ -13,7 +13,7 @@
 }
  
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -212,7 +212,7 @@ legend {
 }
 
 .Peace121:hover {
-    transform: scale(1.2);
+    transform: scale(1.2); 
 }
 
 .Peace122:hover {
@@ -338,6 +338,8 @@ div>.luke {
 }
 
 .ezekiela {
+    display: flex; 
+    flex-direction: row;
     width: 70%;
     margin: 0 auto;
 }
@@ -350,4 +352,20 @@ input {
 
 .yellow {
     color: yellow; 
+}
+
+.miavaka {
+    font-family: "Space Grotesk";
+    width: 100%;
+    font-size: 21px;
+}
+
+#odd {
+    font-family: "Rajdhani";
+    font-size: 20px;
+}
+
+.azerty {
+    padding-top: 25px; 
+    margin-left: 150px; 
 }
